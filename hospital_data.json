@@ -1,0 +1,94 @@
+{
+    "patients": [
+        {
+            "id": 1,
+            "name": "chetan",
+            "age": 22,
+            "gender": "M"
+        },
+        {
+            "id": 2,
+            "name": "shiva",
+            "age": 25,
+            "gender": "M"
+        },
+        {
+            "id": 3,
+            "name": "vamshi",
+            "age": 20,
+            "gender": "M"
+        },
+        {
+            "id": 4,
+            "name": "Hari",
+            "age": 28,
+            "gender": "M"
+        },
+        {
+            "id": 5,
+            "name": "Sharada",
+            "age": 26,
+            "gender": "F"
+        }
+    ],
+    "doctors": [
+        {
+            "id": 1,
+            "name": "Raghu",
+            "age": 45,
+            "specialization": "Cardiac"
+        },
+        {
+            "id": 2,
+            "name": "sravani",
+            "age": 54,
+            "specialization": "orthopedic"
+        },
+        {
+            "id": 3,
+            "name": "Dermatologist",
+            "age": 43,
+            "specialization": "Dermatologist"
+        },
+        {
+            "id": 4,
+            "name": "kritika",
+            "age": 67,
+            "specialization": "Gynecologist"
+        }
+    ],
+    "appointments": [
+        {
+            "patient_id": 4,
+            "doctor_id": 3,
+            "date": "2026-02-26"
+        },
+        {
+            "patient_id": 5,
+            "doctor_id": 4,
+            "date": "2026-03-22"
+        },
+        {
+            "patient_id": 2,
+            "doctor_id": 2,
+            "date": "2026-03-10"
+        }
+    ],
+    "bills": [
+        {
+            "patient_id": 2,
+            "days_admitted": 10,
+            "total_bill": 20500
+        },
+        {
+            "patient_id": 4,
+            "days_admitted": 5,
+            "total_bill": 10500
+        },
+        {
+            "patient_id": 5,
+            "days_admitted": 12,
+            "total_bill": 24500
+        }
+    ]
+}
